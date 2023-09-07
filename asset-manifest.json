@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/diffrent-demo/static/css/main.073c9b0a.css",
-    "main.js": "/diffrent-demo/static/js/main.d1c9b477.js",
+    "main.css": "/diffrent-demo/static/css/main.e6c13ad2.css",
+    "main.js": "/diffrent-demo/static/js/main.5b523c7d.js",
     "static/js/787.776a982d.chunk.js": "/diffrent-demo/static/js/787.776a982d.chunk.js",
-    "static/media/logo.svg": "/diffrent-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/diffrent-demo/index.html",
-    "main.073c9b0a.css.map": "/diffrent-demo/static/css/main.073c9b0a.css.map",
-    "main.d1c9b477.js.map": "/diffrent-demo/static/js/main.d1c9b477.js.map",
+    "main.e6c13ad2.css.map": "/diffrent-demo/static/css/main.e6c13ad2.css.map",
+    "main.5b523c7d.js.map": "/diffrent-demo/static/js/main.5b523c7d.js.map",
     "787.776a982d.chunk.js.map": "/diffrent-demo/static/js/787.776a982d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d1c9b477.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5b523c7d.js"
   ]
 }

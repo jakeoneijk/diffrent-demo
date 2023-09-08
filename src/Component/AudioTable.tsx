@@ -3,8 +3,9 @@ import {TheadMetaType } from "./Type";
 
 type AudioTableProps = {
     tableName:string,
-    theadMetaArray: Array<TheadMetaType>;
-    tableAudio: Array<Array<any>>
+    theadMetaArray: Array<TheadMetaType>,
+    tableAudio: Array<Array<any>>,
+    audioWidth:string
 }
 
 const tableNameStyle = {
@@ -33,7 +34,7 @@ const tdStyle = {
     'borderBottom': '3px solid #DEDEDE',
 }
 
-export default function AudioTable({tableName, theadMetaArray, tableAudio}:AudioTableProps){
+export default function AudioTable({tableName, theadMetaArray, tableAudio, audioWidth}:AudioTableProps){
   return (
     <div style={{'margin': 'auto'}}>
       <div style={tableNameStyle}>{tableName}</div>
@@ -59,7 +60,7 @@ export default function AudioTable({tableName, theadMetaArray, tableAudio}:Audio
                 <td style={tdStyle}>{index}</td>
                 {rowAudio.map((tableData)=>{
                     return(
-                      <td style={tdStyle}><audio controls style={{width:'150px'}}><source src={tableData} type='audio/wav'/></audio></td>
+                      <td style={tdStyle}><audio controls style={{width:audioWidth}}><source src={tableData} type='audio/wav'/></audio></td>
                     )})}
               </tr>
             )})

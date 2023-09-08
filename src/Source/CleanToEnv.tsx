@@ -82,6 +82,6 @@ export default function CleanToEnv(){
 
                                         ]
   return (
-        <AudioTable tableName='Clean-to-Env' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'180px'}/>
+        <AudioTable tableName='Clean-to-Env (2/3)' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'180px'}/>
   )
 }

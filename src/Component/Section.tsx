@@ -20,7 +20,8 @@ const contentStyle = {
     'lineHeight': '150%',
     'fontFamily': 'Arial, sans-serif',
     'fontWeight': 100,
-    'fontSize': '15px'
+    'fontSize': '15px',
+    'whiteSpace': 'pre-line' as 'pre-line'
 }
 
 export default function Section({ name, content }: SectionProps){

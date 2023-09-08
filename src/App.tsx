@@ -7,6 +7,7 @@ import Title from './Component/Title';
 import Section from './Component/Section';
 import EnvToClean from './Source/EnvToClean';
 import CleanToEnv from './Source/CleanToEnv';
+import EnvToEnv from './Source/EnvToEnv';
 
 const style = {
   display: 'flex',
@@ -21,6 +22,8 @@ function App() {
       <div style={{margin: 'auto'}}><img style={{'width':'400px', padding:'40px'}} src={fig}/></div>
       <EnvToClean/>
       <CleanToEnv/>
+      <EnvToEnv/>
+      <Section name='References' content={paperContent.reference}/>
     </div>
   );
 }

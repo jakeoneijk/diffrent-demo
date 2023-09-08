@@ -82,6 +82,6 @@ export default function EnvToEnv(){
 
                                         ]
   return (
-        <AudioTable tableName='EnvToEnv (3/3)' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'180px'}/>
+        <AudioTable tableName='Env-To-Env (3/3)' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'180px'}/>
   )
 }

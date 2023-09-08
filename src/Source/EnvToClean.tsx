@@ -75,8 +75,8 @@ export default function EnvToClean(){
   const theadMetaArray: Array<TheadMetaType> = [
     {name:'Content', miniTopDescription:'',description:'', color:'#4D97EF' },
     {name:'Reference',miniTopDescription:'', description:'', color:'#4D97EF' },
-    {name:'A-Match',miniTopDescription:'', description:'', color:'#C00909' },
-    {name:'VoiceFixer',miniTopDescription:'', description:'', color:'#C00909' },
+    {name:'A-Match [1]',miniTopDescription:'', description:'', color:'#C00909' },
+    {name:'VoiceFixer [2]',miniTopDescription:'', description:'', color:'#C00909' },
     {name:'DiffRENT',miniTopDescription:'[U-R2-C]', description:'(proposed)', color:'#EF7E4D' },
     {name:'Target',miniTopDescription:'', description:'', color:'#449948' }
   ]

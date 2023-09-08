@@ -5,7 +5,7 @@ type SectionProps = {
 
 const nameStyle = {
     'paddingTop': '50px',
-    'paddingLeft': '150px',
+    'paddingLeft': '20%',
     'textAlign': 'left' as 'left',
     'fontFamily': 'Georgia, serif',
     'fontWeight': 550,
@@ -14,8 +14,8 @@ const nameStyle = {
 
 const contentStyle = {
     'paddingTop': '10px',
-    'paddingLeft': '150px',
-    'paddingRight': '200px',
+    'paddingLeft': '20%',
+    'paddingRight': '20%',
     'textAlign': 'justify' as 'justify',
     'lineHeight': '150%',
     'fontFamily': 'Arial, sans-serif',

@@ -9,12 +9,12 @@ type AudioTableProps = {
 }
 
 const tableNameStyle = {
-    'paddingTop': '10px',
+    'paddingTop': '40px',
     'paddingBottom': '10px',
     'textAlign': 'left' as 'left',
     'fontFamily': 'Georgia, serif',
     'fontWeight': 550,
-    'fontSize': '20px'
+    'fontSize': '22px'
 }
 
 const thStyle = {

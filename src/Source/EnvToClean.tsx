@@ -73,12 +73,12 @@ import target9 from './wav/t1/9_6_target.wav';
 
 export default function EnvToClean(){
   const theadMetaArray: Array<TheadMetaType> = [
-    {name:'Content', description:'', color:'#4D97EF' },
-    {name:'Reference', description:'', color:'#4D97EF' },
-    {name:'A-Match', description:'', color:'#C00909' },
-    {name:'VoiceFixer', description:'', color:'#C00909' },
-    {name:'DiffRENT', description:'(proposed)', color:'#EF7E4D' },
-    {name:'Target', description:'', color:'#449948' }
+    {name:'Content', miniTopDescription:'',description:'', color:'#4D97EF' },
+    {name:'Reference',miniTopDescription:'', description:'', color:'#4D97EF' },
+    {name:'A-Match',miniTopDescription:'', description:'', color:'#C00909' },
+    {name:'VoiceFixer',miniTopDescription:'', description:'', color:'#C00909' },
+    {name:'DiffRENT',miniTopDescription:'[U-R2-C]', description:'(proposed)', color:'#EF7E4D' },
+    {name:'Target',miniTopDescription:'', description:'', color:'#449948' }
   ]
   const tableAudio:Array<Array<any>>  = [ [content0,reference0,amatch0,voicefixer0,ours0,target0],
                                           [content1,reference1,amatch1,voicefixer1,ours1,target1],

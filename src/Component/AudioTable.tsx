@@ -34,6 +34,10 @@ const tdStyle = {
     'borderBottom': '3px solid #DEDEDE',
 }
 
+const MiniTopDescriptionStyle = {
+    'fontSize': '13px'
+}
+
 export default function AudioTable({tableName, theadMetaArray, tableAudio, audioWidth}:AudioTableProps){
   return (
     <div style={{'margin': 'auto'}}>
@@ -47,6 +51,7 @@ export default function AudioTable({tableName, theadMetaArray, tableAudio, audio
               return (
                 <th style={{...thStyle, ...{'color':theadMeta.color}}}>
                   <div style={thNameStyle}>{theadMeta.name}</div>
+                  <div style={MiniTopDescriptionStyle}>{theadMeta.miniTopDescription}</div>
                   <div>{theadMeta.description}</div>
                 </th>
           )})}

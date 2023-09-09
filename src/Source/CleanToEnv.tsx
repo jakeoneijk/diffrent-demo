@@ -69,18 +69,18 @@ export default function CleanToEnv(){
     {name:'DiffRENT',miniTopDescription:'[U-R2-C]', description:'(proposed)', color:'#EF7E4D' },
     {name:'Target',miniTopDescription:'', description:'', color:'#449948' }
   ]
-  const tableAudio:Array<Array<any>>  = [ [content0,reference0,amatch0,ours0,target0],
-                                          [content1,reference1,amatch1,ours1,target1],
-                                          [content2,reference2,amatch2,ours2,target2],
-                                          [content3,reference3,amatch3,ours3,target3],
-                                          [content4,reference4,amatch4,ours4,target4],
-                                          [content5,reference5,amatch5,ours5,target5],
-                                          [content6,reference6,amatch6,ours6,target6],
-                                          [content7,reference7,amatch7,ours7,target7],
-                                          [content8,reference8,amatch8,ours8,target8],
-                                          [content9,reference9,amatch9,ours9,target9],
-
-                                        ]
+  const tableAudio:Array<Array<any>>  = [ 
+    [content2,reference2,amatch2,ours2,target2],
+    [content3,reference3,amatch3,ours3,target3],
+    [content0,reference0,amatch0,ours0,target0],
+    [content1,reference1,amatch1,ours1,target1],
+    [content4,reference4,amatch4,ours4,target4],
+    [content5,reference5,amatch5,ours5,target5],
+    [content6,reference6,amatch6,ours6,target6],
+    [content7,reference7,amatch7,ours7,target7],
+    [content8,reference8,amatch8,ours8,target8],
+    [content9,reference9,amatch9,ours9,target9],
+  ]
   return (
         <AudioTable tableName='Clean-to-Env (2/3)' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'180px'}/>
   )

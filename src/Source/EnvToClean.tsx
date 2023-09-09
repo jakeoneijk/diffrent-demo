@@ -80,18 +80,18 @@ export default function EnvToClean(){
     {name:'DiffRENT',miniTopDescription:'[U-R2-C]', description:'(proposed)', color:'#EF7E4D' },
     {name:'Target',miniTopDescription:'', description:'', color:'#449948' }
   ]
-  const tableAudio:Array<Array<any>>  = [ [content0,reference0,amatch0,voicefixer0,ours0,target0],
-                                          [content1,reference1,amatch1,voicefixer1,ours1,target1],
-                                          [content2,reference2,amatch2,voicefixer2,ours2,target2],
-                                          [content3,reference3,amatch3,voicefixer3,ours3,target3],
-                                          [content4,reference4,amatch4,voicefixer4,ours4,target4],
-                                          [content5,reference5,amatch5,voicefixer5,ours5,target5],
-                                          [content6,reference6,amatch6,voicefixer6,ours6,target6],
-                                          [content7,reference7,amatch7,voicefixer7,ours7,target7],
-                                          [content8,reference8,amatch8,voicefixer8,ours8,target8],
-                                          [content9,reference9,amatch9,voicefixer9,ours9,target9],
-
-                                        ]
+  const tableAudio:Array<Array<any>>  = [ 
+    [content3,reference3,amatch3,voicefixer3,ours3,target3],            
+    [content1,reference1,amatch1,voicefixer1,ours1,target1],
+    [content2,reference2,amatch2,voicefixer2,ours2,target2],
+    [content0,reference0,amatch0,voicefixer0,ours0,target0],
+    [content4,reference4,amatch4,voicefixer4,ours4,target4],
+    [content5,reference5,amatch5,voicefixer5,ours5,target5],
+    [content6,reference6,amatch6,voicefixer6,ours6,target6],
+    [content7,reference7,amatch7,voicefixer7,ours7,target7],
+    [content8,reference8,amatch8,voicefixer8,ours8,target8],
+    [content9,reference9,amatch9,voicefixer9,ours9,target9],
+  ]
   return (
         <AudioTable tableName='Env-to-Clean (1/3)' theadMetaArray={theadMetaArray} tableAudio={tableAudio} audioWidth={'150px'}/>
   )

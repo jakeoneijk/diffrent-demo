@@ -19,7 +19,7 @@ function App() {
     <div className="App" style={style}>
       <Title/>
       <Section name='Abstract' content={paperContent.abstract}/>
-      <div style={{margin: 'auto'}}><img style={{'width':'400px', padding:'40px'}} src={fig}/></div>
+      <div style={{margin: 'auto'}}><img style={{'width':'500px', padding:'40px'}} src={fig}/></div>
       <EnvToClean/>
       <CleanToEnv/>
       <EnvToEnv/>

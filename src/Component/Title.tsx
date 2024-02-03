@@ -1,4 +1,6 @@
 import { paperContent } from "../Config/PaperContent"
+import arxiv from '../Source/image/ArXiv.png';
+import Button from "./Button"
 
 const titleContainerStyle = {
   'marginTop': '60px',
@@ -45,19 +47,6 @@ const linkContainerStyle = {
 
 }
 
-const buttonStyle = {
-  padding: '6px 14px',
-  backgroundColor: '#fff',
-  'border': '1px solid #f8f9fa',
-  'borderRadius': '24px',
-  'cursor': 'pointer',
-  'fontFamily': 'Arial, sans-serif',
-  'fontSize': '13px',
-  'fontWeight': 550,
-  boxShadow: 'rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .10) 0 6px 10px 0,rgba(0, 0, 0, .08) 0 1px 18px 0',
-  color: '#3c4043'
-}
-
 function openLink(){
   window.open(paperContent.paperLink, '_blank')
 }
@@ -76,7 +65,7 @@ export default function Title(){
             {paperContent.affiliation}
         </div>
         <div style={linkContainerStyle}>
-          <div onClick={openLink} style={buttonStyle}> Paper </div>
+          <Button onClick={openLink}> <img style={{width:'30px', marginRight: '5px'}} src={arxiv} /> Paper </Button>
         </div>
     </div>
   )

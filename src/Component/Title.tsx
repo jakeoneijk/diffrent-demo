@@ -44,7 +44,18 @@ const linkContainerStyle = {
   'justifyContent': 'center' as 'center',
   'alignItems': 'center' as 'center',
   'marginTop': '20px',
+}
 
+const hrStyle = {
+  'marginTop': '20px',
+  'marginLeft': '30px',
+  'marginRight': '30px',
+}
+
+const linkListStyle = {
+  'display': 'flex',
+  'justifyContent': 'center' as 'center',
+  'alignItems': 'center' as 'center',
 }
 
 function openLink(){
@@ -66,6 +77,12 @@ export default function Title(){
         </div>
         <div style={linkContainerStyle}>
           <Button onClick={openLink}> <img style={{width:'30px', marginRight: '5px'}} src={arxiv} /> Paper </Button>
+        </div>
+        <hr style={hrStyle}/>
+        <div style={linkListStyle}>
+          <a href="/test set meta data.yaml" download="test set meta data.yaml">
+            test set meta data.yaml
+          </a>
         </div>
     </div>
   )
